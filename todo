@@ -1,4 +1,7 @@
 - Display verse of the day
+    - Want to create a separate file in api folder to fetch data
+    - Create another file in components to display it
+    - Then add component into App.tsx to display it in the front page of website
 - Display Bible (ASV) first
 - Add more versions
 
