@@ -12,9 +12,9 @@ interface BibleData {
     data: Bible;
 }
 
-async function getBibleData(bibleId: string): Promise<BibleData | null> {
+async function getBibleData(endpoint: string): Promise<BibleData | null> {
     try {
-        const response = await fetch(`${API_URL}/${ASV_ID}`, {
+        const response = await fetch(`${API_URL}/${ASV_ID}/${endpoint}`, {
             method: 'GET',
             headers: {
                 'Content-type': 'application/json',
