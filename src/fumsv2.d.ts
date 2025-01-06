@@ -1,0 +1,1 @@
+declare var FUMS: any;  // Declare FUMS globally to be used in the project
